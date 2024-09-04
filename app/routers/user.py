@@ -3,7 +3,8 @@ from app.backend.db import Base
 from sqlalchemy import Column, ForeignKey, Integer, String, Boolean, Float
 from sqlalchemy.orm import relationship
 
-from task import Task
+# from task import Task
+# from app.routers.task import Task
 
 router = APIRouter(prefix='/user', tags=['user'])
 
